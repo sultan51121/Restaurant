@@ -72,6 +72,7 @@ img{
 footer{
     grid-area: footer;
     font-size: 22px;
+    height: 400px;
 }
 .footer_img{
     height: 25px;
@@ -79,4 +80,14 @@ footer{
 }
 ul{
     list-style: none;
+}
+.footer_div{
+    float: left;
+    margin-left: 22px;
+    
+}
+.footer_div_border{
+    border-left: 2px solid white;
+    padding: 10px;
+    height: 100%;
 }
