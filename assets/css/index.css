@@ -73,3 +73,10 @@ footer{
     grid-area: footer;
     font-size: 22px;
 }
+.footer_img{
+    height: 25px;
+    width: 35px;
+}
+ul{
+    list-style: none;
+}
