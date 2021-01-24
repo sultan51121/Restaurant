@@ -73,23 +73,35 @@ footer{
     grid-area: footer;
     font-size: 22px;
 }
+ 
 .footer_img{
     height: 25px;
     width: 35px;
-}
+    float: left;
+    margin: 5px;
+ }
 ul{
     list-style: none;
 }
+li{
+    padding: 7px;
+
+}
 .footer_div{
     float: left;
-    margin-left: 22px;
-    
+    margin-left: 120px;
+     
 }
 .footer_div_border{
-    border-left: 2px solid white;
     padding: 10px;
     height:inherit;
+    
 }
 a{
     cursor:pointer;
+    color: chartreuse;
+    text-decoration-line: none;
+}
+.float_left{
+    float: left;
 }
