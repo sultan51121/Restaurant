@@ -9,8 +9,8 @@ body {
   grid-template-areas:
     "hd hd hd hd hd hd"
     "btn btn btn btn btn btn"
-    "aside sec_0 sec_0 sec_0 sec_0 sec_0"
-    "aside sec_0 sec_0 sec_0 sec_0 sec_0"
+    "sec_0 sec_0 sec_0 sec_0 sec_0 sec_0"
+    "sec_0 sec_0 sec_0 sec_0 sec_0 sec_0"
     "footer footer footer footer footer footer";
 }
 .btn {
@@ -40,11 +40,7 @@ header {
   grid-area: btn;
   padding: 15px;
 }
-aside {
-  grid-area: aside;
-  height: 555px;
-  width: 250px;
-}
+
 #sec_0 {
   grid-area: sec_0;
 }
